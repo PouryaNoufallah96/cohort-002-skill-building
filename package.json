@@ -5,7 +5,7 @@
   "repository": "https://github.com/ai-hero-dev/ai-sdk-v5-crash-course",
   "type": "module",
   "scripts": {
-    "dev": "ai-hero-cli exercise",
+    "dev": "node api.js && ai-hero-cli exercise",
     "exercise": "ai-hero-cli exercise",
     "prepare": "husky",
     "get-diffs": "ai-hero-cli internal get-diffs --branch=live-run-through --project-repo=../cohort-002-project"
